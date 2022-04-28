@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+	height: 100vh;
+    background: #E0D8B0;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    padding: 1.4rem;
+    border-radius: 0.5rem;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+img {
+    display: block;
+    border-radius: 0.5rem;
+    width: 16rem;
+}
+
+.p1, .p2 {
+    width: 15rem;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+    color: #444444;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.p2 {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #2B2B2B;
+}
